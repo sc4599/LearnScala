@@ -6,7 +6,9 @@ object HelloScala {
     print("hello Scala")
   }
 
-  def main(args: Array[String]) {
-
+  def main(args: Array[String]): Unit = {
+    println("hello")
+    val ss=new Test().ppp("song");
+    println(ss)
   }
 }
