@@ -1,4 +1,4 @@
-package com.github.syalr
+package com.github.sylar.chapter3
 
 import scala.collection.mutable.ArrayBuffer
 

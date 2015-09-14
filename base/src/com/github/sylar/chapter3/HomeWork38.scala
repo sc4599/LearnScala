@@ -1,7 +1,8 @@
-package com.github.syalr
+package com.github.sylar.chapter3
+
+import java.awt.datatransfer._
 
 import scala.collection.mutable.ArrayBuffer
-import java.awt.datatransfer._
 /**
  * Created by SylarSong on 2015/9/13.
  */
