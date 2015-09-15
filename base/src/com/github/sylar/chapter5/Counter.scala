@@ -5,9 +5,12 @@ package com.github.sylar.chapter5
  */
 class Counter {
 
-  private var value=0 // 定义变量必须初始化
+  private var value = 0 // 定义变量必须初始化
 
-  def increment(){value+=1}//方法默认都是公有的
+  def increment() {
+    value += Int.MaxValue;
+    if(value<0)value=value-1
+  } //方法默认都是公有的
 
-  def current()=value
+  def current = value //定义中不带括号 则调用时候也不带括号
 }
